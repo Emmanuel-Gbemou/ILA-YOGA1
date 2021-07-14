@@ -1,0 +1,104 @@
+/* **********************la partie body de notre site **************************** */
+body{
+  margin:0;
+  padding:0px;
+}
+
+/* *******************************la partie header******************************** */
+.header{
+   background-image: url(./img/fond.jpg);
+   background-position: center;
+   height:450px;
+   background-size: cover;
+}
+.header nav a{
+    color:white;
+    font-family:'Playfair Display', serif;
+    display: inline-block;
+    margin:40px;
+}
+.header h3{
+    font-family:'Playfair Display', serif;
+    color:white;
+    text-transform: uppercase;
+    font-size:20px;
+    margin-bottom: 20px;;
+}
+.header h2{
+font-family:'Playfair Display', serif;
+font-size:30px;
+color:white;
+margin-top:50px;
+text-shadow:1px 1px white;
+
+}
+div{
+    text-align: center;
+}
+span{
+    display:block;
+}
+
+/* ************************la partie section 1 *************************************/
+.section1 img{
+    float:left;
+    margin:20px;
+}
+.section1  h1{
+    text-align:center;
+    font-size: 2em;
+    font-family:'Playfair Display', serif;
+    opacity: 0.5;
+}
+.section1  p{
+    font-family: cursive;
+    font-size:1em;
+    opacity: 0.5;
+    
+}
+/* ***********************la partie section 2*****************************************/
+.section2 h1{
+    text-align:center;
+    font-size: 2em;
+    font-family:'Playfair Display', serif;
+    opacity: 0.5;
+    clear:top;
+}
+.section2 p{
+   font-family: cursive;
+    font-size:1em;
+    opacity: 0.5;
+}
+.section2 img{
+    float:right;
+    margin:20px;
+}
+/* **********************Article en generale**************************/
+#article{
+    background-image: url(./img/background_section.jpg);
+    background-size:cover;
+    clear:both;
+}
+#article p {
+    font-size:1.3em;
+    color:white;
+}
+#article h2{
+    font-size:1.3em;
+    color:white;
+    margin-left: 50px;;
+}
+
+/* ****************block des trois images**************************/
+.block article{
+    display: inline-block;
+    width: 25%;
+    padding:50px;
+}
+/* *************************************la partie footer************/
+#article footer{
+    text-align:center;
+    font-size:10px;
+}
+
+   
